@@ -7,7 +7,8 @@ html {
     height:75px;
     background-color: #790016;
     display: flex;
-    position: fixed;
+    position: sticky;
+    top: 0;
 
 }
 .nav-list{
@@ -40,7 +41,7 @@ nav ul li a {
 .welcome-section h1{
     text-align: center;
     justify-content: center;
-    display: flex;
+    display: flex; 
     color:whitesmoke;
     position: absolute;
     top:250px;
@@ -93,7 +94,7 @@ a {
     width: 100%;
     object-fit: cover;
 }
-.project-tile {
+.project-title {
     font-size: 2rem;
     padding: 2rem 0.5rem;
 }
